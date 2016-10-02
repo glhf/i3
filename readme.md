@@ -11,12 +11,12 @@ based on:
 
 include the script based on the post of user ***ack006*** - [script post](https://faq.i3wm.org/question/2172/how-do-i-find-the-criteria-for-use-with-i3-config-commands-like-for_window-eg-to-force-splashscreens-and-dialogs-to-show-in-floating-mode.1.html) for definition of the window class
 
-`
+```
 assign [class="google-chrome"] ...
-`
+```
 
 #install of i3 to my linux mint was provided with 
-`
+```
 sudo apt-get install i3 \
                      i3lock \ 
                      i3blocks \ 
@@ -28,14 +28,18 @@ sudo apt-get install i3 \
                      j4-dmenu-desktop \ 
                      kbdd \ 
                      rofi 
-`
+```
 
 #disable nemo desktop issue
-`
+```
 gsettings set org.nemo.desktop show-desktop-icons false
-`
+```
 
 #j4-dmenu-desktop
-`
+```
 usage bindsym $mod+d exec --no-startup-id j4-dmenu-desktop --dmenu="dmenu -i -fn 'DejaVu Sans-10' -l 20"
-`
+```
+
+
+#Current state with j4 drop-down 
+![screen](./img/screen.png)
