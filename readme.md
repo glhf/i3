@@ -17,17 +17,22 @@ assign [class="google-chrome"] ...
 
 #install of i3 to my linux mint was provided with 
 ```
-sudo apt-get install i3 \
+sudo apt install i3 \
                      i3lock \ 
                      i3blocks \ 
                      suckless-tools \ 
                      i3status \ 
                      dunst \ 
                      libanyevent-i3-perl \ 
-                     libjson-xs-perl \ 
+                     libjson-xs-perl 
+                     
+sudo apt install
                      j4-dmenu-desktop \ 
                      kbdd \ 
-                     rofi 
+                     rofi \
+                     xbindkeys xbindkeys-config \
+                     fonts-font-awesome \
+                     lm-sensors
 ```
 
 #disable nemo desktop issue
