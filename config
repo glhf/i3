@@ -89,6 +89,7 @@ bar {
         status_command i3blocks -c /home/goodvin/.config/i3/.i3blocks.conf
 }
 
+exec xrandr --output DP-1 --left-of eDP-1
 exec --no-startup-id gnome-settings-daemon
 exec --no-startup-id "setxkbmap -layout us,ua,ru -option 'grp:alt_shift_toggle'" #lang shifting
 
@@ -103,6 +104,7 @@ bindsym $mod+x [urgent=latest] focus
 ###################################################################################
 workspace 1 output DP-2
 workspace 3 output eDP-1
+workspace 5 output eDP-1
 workspace 7 output eDP-1
 
 
